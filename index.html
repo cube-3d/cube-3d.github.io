@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<!--link-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"><!--icon-->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="shortcut icon" href="img/cube_black.svg" type="image/svg">
+	<!--link-->
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<title>Cube</title>
+</head>
+
+
+<body>
+
+	<!--preolader-->
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+	<div id="preloader">
+      <img src="img/cube_white.svg" id="loader">
+    </div>
+	<!--preolader-->
+
+    <!--elipse-->
+    <div class="elipse"></div>
+    <!--elipse-->
+
+	<header class="header_up">
+		<a href="index.html"><img src="img/cube_black.svg" alt=""></a>
+		<a class="header_cube_a" href="index.html"><p class="header_cube">cube</p></a>
+		<p class="header_p_right">Разработка сайтов<br>на заказ</p>
+		<nav class="nav_header">
+			<ul>
+		        <li><a href="index.html">Главная</a></li>
+		        <li><a href="about_ru.html">О нас</a></li>
+		        <li><a href="mosreg_ru.html">Услуги</a></li>
+		        <li><a href="contact_ru.html">Контакты</a></li>
+		    </ul>
+		</nav>
+	</header>
+
+	<!--exit menu-->
+	<script>
+		var header = $('.header_up'),
+		scrollPrev = 0;
+		$(window).scroll(function() {
+		var scrolled = $(window).scrollTop();
+		if ( scrolled > 40 && scrolled > scrollPrev ) {
+			header.addClass('out');
+		} else {
+			header.removeClass('out');
+		}
+		scrollPrev = scrolled;
+		});
+	</script>
+	<!--exit menu-->
+
+	<main>
+		<div class="center_main">
+			<p class="header_main_0">Web-студия <a class="header_cube_2" >cube</a></p>
+		</div>
+		<!--cube-->
+		<div class="left_colon">
+		<div class="container">
+		    <div class="back side"></div>
+		    <div class="left side"></div>
+		    <div class="right side"></div>
+		    <div class="top side"></div>
+		    <div class="bottom side"></div>
+		    <div class="front side"></div>
+		</div>
+		</div>
+
+		<!--cube-->
+		<div class="right_colon">
+			<p class="header_main_1">Главная</p>
+			<p id="home_gl" class="header_main_2">Что мы предлагаем?</p>
+				<p class="text">Мы создаем <b>высококачественные</b> сайты для вас и вашего бизнеса! По итогу вы получите отличный сайт, адаптированный под все устройства, учитывающий индивидуальность и потребность вашей компании! Мы предлагаем вам постоянную доработку вашего бизнеса и услуг в интернете!</p>
+		</div>
+		<div class="center_main_a">
+			<div class="center_main_a_2">
+				<a class="a_main" href="#feedback">Оставить заявку</a>
+			</div>
+		</div>
+		
+
+		<div class="center_main">
+			<p class="header_main_1">О команде</p>
+			<p class="header_main_2">Кто мы?</p>
+		</div>
+		<div class="right_colon">
+			<p class="header_main_2">Мы - дизайнеры!</p>
+			<p class="text">Наши дизайнеры имеют <b>большой опыт</b> на рынке дизайнерских услуг. Это не только умение в проектировании своих работ, но и умение общаться с <b>Заказчиком</b>, что является очень важным моментом в проектировании дизайна сайтов. <!--Понимать чего именно хочет Заказчик уже при общении с ним значит выполнить проект который ему понравится.--></p>
+		</div>
+		<div class="left_colon">
+			<img class="img_main" src="img/design_2.png" alt="">
+		</div>
+		<div class="left_colon">
+			<img class="img_main" src="img/html_code.png" alt="">
+		</div>	
+		<div class="right_colon">
+			<p class="header_main_2">Мы - верстальщики!</p>
+			<p class="text">Наши верстальщики отвечают за наполнение ресурса необходимыми картинками, фотографиями и текстами. Они обеспечивают корректное и одинаковое отображение веб-ресурсов во всех <b>основных браузерах</b>, контролируют работу интернет ресурса.</p>
+		</div>
+		<div class="center_main_a">
+			<div class="center_main_a_2">
+				<a class="a_main" href="about_ru.html">Подробнее</a>
+			</div>
+		</div>
+
+		<div class="center_main">
+			<p class="header_main_1">Услуги</p>
+			<p class="header_main_2">Что мы создаём?</p>
+		</div>
+
+
+		<!--mosreg-->
+		<div class="index_mosreg_left_colon">
+			<img class="svg_main" src="img/site_1.svg" alt="">
+			<p class="index_mosreg_header_main_2">Корпоративные сайты</p>
+			<p class="index_mosreg_text">Красивые, функциональные и удобные сайты для фирмы, агенства, компании.</p>
+		</div>
+		<div class="index_mosreg_left_colon">
+			<img class="svg_main" src="img/landing-page_3.svg" alt="">
+			<p class="index_mosreg_header_main_2">Landing page</p>
+			<p class="index_mosreg_text">Одностраничный сайт для продажи товара или конкретной услуги целевой аудитории.</p>
+		</div>
+			
+		<div class="index_mosreg_right_colon">
+			<img class="svg_main" src="img/visitka.svg" alt="">
+			<p class="index_mosreg_header_main_2">Сайт визитка</p>
+			<p class="index_mosreg_text">Визитная карточка компании с отличительным дизайном и небольшим объемом.</p>
+		</div>
+		<div class="index_mosreg_right_colon">
+			<img class="svg_main" src="img/landing-page_2.svg" alt="">
+			<p class="index_mosreg_header_main_2">Сайт портфолио</p>
+			<p class="index_mosreg_text">Небольшая презентация отдельного человека или полноценного коллектива.</p>
+		</div>
+		<div class="index_mosreg_left_colon">
+			<img class="svg_main" src="img/logo.svg" alt="">
+			<p class="index_mosreg_header_main_2">Создание логотипа</p>
+			<p class="index_mosreg_text">Уникальный логотип для представления вашего бренда.</p>
+		</div>
+		
+		<div class="center_main_a">
+			<div class="center_main_a_2">
+				<a class="a_main" href="mosreg_ru.html">Подробнее</a>
+			</div>
+		</div>
+		<!--mosreg-->
+
+		<!--contact-->
+		<div class="center_main" >
+			<p class="header_main_1">Контакты</p>
+			<p id="feedback" class="header_main_2">Как с нами связаться?</p>
+		</div>
+		<div  class="contact_bc">
+			<div class="footer_center">
+				<p class="header_footer_1">Обратная связь</p>
+				<img src="img/cube_white.svg" alt="">
+				<p class="header_footer_2_number">Звони нам по номеру: <a class="index_header_footer_2_a" href="tel:+79771257710">+7 977 125 77 10</a>!</p>
+				<p class="header_footer_2">Остались вопросы? Пиши нам на почту!</p>
+				<form  class="mail" action="send.php" method="POST">
+					<input class="input_footer" type="text" placeholder="Имя" name="name" id="js-name" value="">
+					<input class="input_footer" type="text" placeholder="Email" name="sub" id="js-name" value="">
+					<input class="input_footer" type="text" placeholder="Телефон" name="phone" id="js-name" value="">
+					<textarea id="js-comment" name="comments" class="input_footer comment" placeholder="Комментарии"></textarea>
+					<button class="send_button">Отправить</button>
+				</form>
+			</div>
+		</div>
+		<div class="center_main_a">
+			<div class="center_main_a_2">
+				<a class="a_main" href="contact_ru.html">Подробнее</a>
+			</div>
+		</div>
+		<!--contact-->
+
+		<!--itog-->
+		
+		<div class="center_main">
+			<p class="header_main_1">Итог</p>
+			<p class="header_main_2">Что нового вы узнали?</p>
+			<div class="index_itog">
+			<p class="text_b" style="text-align: left;">1) Мы разрабатываем качественные сайты!</p>
+			<p class="text_b" style="text-align: left;">2) С нами легко найти общий язык!</p>
+			<p class="text_b" style="text-align: left;">3) Мы доступны в любое время!</p>
+			<p class="text_b" style="text-align: left;">4) Мы всегда ждем вас в нашей компании!</p>
+		</div>
+		</div>
+		
+		<div class="center_main_a">
+			<div class="center_main_a_2">
+				<a class="a_main" href="#feedback">Оставить заявку</a>
+			</div>
+		</div>
+
+		<!--itog-->
+	</main>
+
+	<footer>
+		<div class="footer_div">
+			<p class="index_header_footer_1"><a href="#" class="footer_cube_a">cube</a></p>
+			<p class="index_header_footer_2"><a class="index_header_footer_2_a" href="#feedback">Разрабатываем сайты<br> на заказ</a>
+		</div>
+		<div class="footer_div">
+			<p class="index_header_footer_1">Адрес:</p>
+			<p class="index_header_footer_2"><a target="blanck" class="index_header_footer_2_a" href="https://yandex.ru/maps/10740/mytischi/house/ulitsa_borisovka_2/Z04YcQdiQEcGQFtvfXVxeXthYw==/?from=api-maps&ll=37.703935%2C55.909215&origin=jsapi_2_1_74&sll=37.703935%2C55.909215&z=17">Россия, г.Мытищи,<br> ул.Борисовка, дом 2</a></p>
+		</div>
+		<div class="footer_div">
+			<p class="index_header_footer_1">Контакты:</p>
+			<p class="index_header_footer_2"><a class="index_header_footer_2_a"    href="#feedback"   >3d.cube@inbox.ru</a></p>
+			<p class="index_header_footer_2"><a class="index_header_footer_2_a" href="tel:+79771257710">+7 977 125 77 10</a></p>
+			
+		</div>
+		<div class="footer_div">
+			<p class="index_header_footer_1">Языки:</p>
+			<p class="index_header_footer_2"><a class="index_header_footer_2_a" href="index.html">Русский</a></p>
+			<p class="index_header_footer_2"><a  class="index_header_footer_2_a" href="index_en.html">English</a></p>
+		</div>
+		<div class="footer_div_icon" style="margin-right: 0;">
+			<p class="index_header_footer_1">Social</p>
+			<a target="_blank" href="https://vk.com/boom_cha_13"><i class="fab fa-vk icon_footer" style="background-color: #1A1A1A;"></i></a>
+			<a target="_blank" href=" https://wa.me/79771257710"><i class="fab fa-whatsapp" style="background-color: #1A1A1A;"></i></a>
+			<a target="_blank" href="https://www.instagram.com/boom_cha_13/"><i class="fab fa-instagram" style="background-color: #1A1A1A;"></i></a>
+			<a target="_blank" href="https://t.me/boom_cha_13"><i class="fab fa-telegram-plane" style="background-color: #1A1A1A;"></i></a>
+		</div>
+		<p class="copyright">2020 &#169 cube</p>
+	</footer>
+
+	<!--script preloader-->
+	<script>
+    	jQuery(document).ready(function($) { 
+          $(window).on("load",function (){
+
+           
+            $("#preloader").fadeOut(700);
+          });
+        });
+    </script>
+
+    <!--$("#preloader").delay(300).fadeOut("slow");-->
+
+    <!--script preloader-->
+</body>
+</html>
