@@ -302,7 +302,7 @@ main{
 .text{
 	font-size: 28px;
 	font-family: 'Roboto', sans-serif;
-	text-align:justify;
+	text-align: justify;
 	padding: 0;
 	margin: 0 0 5px 0;
 }
