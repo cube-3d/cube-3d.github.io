@@ -95,7 +95,7 @@ body, html{
 }
 .elipse {
 	position: absolute;
-	top: 670px;
+	top: 600px;
 	left: -450px;
 	width: 600px; 
 	height: 600px;
@@ -302,7 +302,8 @@ main{
 .text{
 	font-size: 28px;
 	font-family: 'Roboto', sans-serif;
-	text-align: center;
+	text-align:justify;
+	/*text-align: center;*/
 	padding: 0;
 	margin: 0 0 5px 0;
 }
